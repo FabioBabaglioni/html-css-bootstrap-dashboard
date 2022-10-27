@@ -1,11 +1,6 @@
 [class*="col"]{
-    border: solid 1px black;
-    /* height: 30px; */
+    border: solid 1px black;    
 }
-
-/* .col-red{
-    background-color: red;
-} */
 
 
 /* regole header */
@@ -22,6 +17,8 @@ main{
     background-color: blue;
 }
 
+
+
 /* regole main */
 
 .col-2{
@@ -29,10 +26,11 @@ main{
 }
 
 .ms_row_height{
-    height: 100vh;
+    height: calc(100vh - 50px);
 }
 
 .boolean{
+    height: 85px;
     background-color: #1b72e8;
 }
 
@@ -53,6 +51,10 @@ main{
 
 .ms_overflow{
     overflow-y: auto;
+}
+
+.ms_margin{
+    padding-left: 105px;
 }
 
 
