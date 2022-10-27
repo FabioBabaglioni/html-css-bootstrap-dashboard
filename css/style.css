@@ -21,27 +21,28 @@ header > nav {
 main{
     height: 100vh;
     background-color: blue;
-    overflow-y: auto;
 }
 
 /* regole main */
 .boolean{
     background-color: #1b72e8;
 }
-.classi, .faq, .todo, .utenti{
-    height: 300px;
-    margin: 0 auto;
-    /* debug */
+
+.nav-sx-top{
+    width: 95%;
+    height: 60px;
     background-color: orange;
 }
 
+.nav-sx-bottom{
+    width: 95%;
+    height: 60px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    background-color: orange;
+}
 
-@media all and (min-width: 768px) {
-    .classi{
-        width: 60%;
-    }
-
-    .faq{
-        width: 20%;
-    }
+.ms_overflow{
+    overflow-y: auto;
 }
