@@ -1,0 +1,16 @@
+[class*="col"]{
+    background-color: green;
+    border: solid 1px black;
+    height: 30px;
+}
+
+
+/* regole header */
+
+header > nav {
+    height: 50px;
+    width: 100%;
+    background-color: red;
+    position: fixed;
+    z-index: 300;
+}
