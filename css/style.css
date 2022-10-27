@@ -1,6 +1,6 @@
-[class*="col"]{
+/* [class*="col"]{
     border: solid 1px black;    
-}
+} */
 
 
 /* regole header */
@@ -8,19 +8,23 @@
 header > nav {
     height: 50px;
     width: 100%;
-    background-color: red;
     position: fixed;
     z-index: 300;
 }
 
-main{
-    background-color: blue;
+.img-small{
+    width: 40px;
 }
 
+.img{
+    width: 90px;
+}
 
+.fa-bell{
+    color: #ff8f00;
+}
 
 /* regole main */
-
 .col-2{
     width: 60px;
 }
@@ -54,12 +58,20 @@ main{
 }
 
 .ms_margin{
-    padding-left: 105px;
+    padding-left: 65px;
+}
+
+.form-control{
+    background-color: #e9ecef;;
 }
 
 
-@media all and (min-width: 768px ) {
+@media all and (min-width: 991px ) {
     .col-2{
         width: 105px;
+    }
+
+    .ms_margin{
+        padding-left: 105px;
     }
 }
