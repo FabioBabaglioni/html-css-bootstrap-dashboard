@@ -19,11 +19,19 @@ header > nav {
 }
 
 main{
-    height: 100vh;
     background-color: blue;
 }
 
 /* regole main */
+
+.col-2{
+    width: 60px;
+}
+
+.ms_row_height{
+    height: 100vh;
+}
+
 .boolean{
     background-color: #1b72e8;
 }
@@ -45,4 +53,11 @@ main{
 
 .ms_overflow{
     overflow-y: auto;
+}
+
+
+@media all and (min-width: 768px ) {
+    .col-2{
+        width: 105px;
+    }
 }
