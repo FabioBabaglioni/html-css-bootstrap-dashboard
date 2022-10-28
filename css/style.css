@@ -34,12 +34,6 @@ header > nav {
     width: 100%;
 }
 
-.dash{
-    height: 100%;
-    overflow: auto;
-    flex-grow: 1;
-}
-
 .img-small{
     width: 40px;
 }
@@ -53,6 +47,13 @@ header > nav {
 }
 
 /* regole main */
+
+.dash{
+    height:100% ;
+    overflow: auto;
+    flex-grow: 1;
+}
+
 .ms_sidebar_width{
     width: 60px;
 }
