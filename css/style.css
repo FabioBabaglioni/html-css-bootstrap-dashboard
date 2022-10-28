@@ -3,6 +3,9 @@
     min-height: 50px; 
 } */
 
+body{
+    font-size: 15px;
+}
 .ms_font_grey{
     color: white;
 }
@@ -31,6 +34,12 @@ header > nav {
     width: 100%;
 }
 
+.dash{
+    height: 100%;
+    overflow: auto;
+    flex-grow: 1; 
+}
+
 .img-small{
     width: 40px;
 }
@@ -50,10 +59,6 @@ header > nav {
 
 .ms_sidebar_height{
     height: calc(100vh - 50px);
-}
-
-.ms_calc_dash{
-    width: calc(100vw - 60px);
 }
 
 .ms_boolean{
@@ -107,6 +112,9 @@ header > nav {
 .ms_border_table{
     border-left: 1px solid grey;
     border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .ms_border_cod{
