@@ -14,7 +14,7 @@
     <!-- nav-bar fissa -->
     <header>
 
-        <nav class="d-flex">
+        <nav class="d-flex align-items-center">
             <div class="container-fluid ">
                 <div class="row align-items-center ">
                     <div class="col-auto">
@@ -33,7 +33,7 @@
                             </div>
                           </form>
                     </div>
-                    <div class="col-auto">
+                    <div class="col-auto d-flex ">
                         <a class="navbar-brand" href="#">
                             <i class="d-none d-md-inline fa-solid fa-list"></i>
                             <i class="d-none d-md-inline fa-solid fa-circle-question"></i>
@@ -51,42 +51,47 @@
 
     <!-- parte centrale dashboard -->
     <main>
-
-        <div class="ms_main_height">
-            <div class="d-flex container-fluid">
-                <div class="ms_sidebar_width ms_sidebar_height position-relative">
-                    <div class="nav-sx-top">
+        
+        <div class="d-flex py-3">
+            <div class="ms_sidebar_width ms_sidebar_height position-relative pt-1 ">
+                <div class="nav-sx-top ms_font_grey text-center md-text-left">
+                    <div class="">
+                        <a class="ms_font_grey" href="#"><i class="fa-solid fa-house"></i></a>
+                        <span class="d-none d-md-inline">House</span>
                     </div>
-                    <div class="nav-sx-bottom"></div>
+                    
+                    <div>
+                        <a class="ms_font_grey" href="#"><i class="fa-solid fa-chart-simple"></i></a>
+                        <span class="d-none d-md-inline">Stats</span>
+                    </div>
+                   
+                    <div>
+                        <a class="ms_font_grey" href="#"><i class="fa-solid fa-signal"></i></a>
+                        <span class="d-none d-md-inline">Signal</span>
+                    </div>
+                    
                 </div>
-                <div class="ms_calc_dash ms_margin">
-                    <div class="row ms_overflow">
-                        <div class="col-12 col-red boolean">
-                            <div class="my-4">
-                            </div>
-                        </div>
+                <div class="nav-sx-bottom"></div>
+            </div>
+            <div class="ms_calc_dash">
+                
+                    <div class="ms_boolean"></div>
 
+                <div class="container-fluid">
+                    <div class="row ms_overflow">
                         <div class="col-12 col-md-8">
                             PROSSIME CLASSI
                         </div>
-                        <div class="col-12 col-md-8 order-md-2">
+                        <div class="col-12 col-md-4">
                             FAQ
-                           
-                        </div>
-                        <div class="col-12 col-md-4 ">
-                            TODO
-                           
-                        </div>
-                        <div class="col-12 col-md-4 order-md-last">
-                            UTENTI
-                            
                         </div>
                     </div>
-
-                    
                 </div>
+                
+
             </div>
         </div>
+        
 
     </main>
 
