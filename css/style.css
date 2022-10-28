@@ -1,10 +1,29 @@
 /* [class*="col"]{
-    border: solid 1px black;    
+    border: solid 1px black;   
+    min-height: 50px; 
 } */
 
 .ms_font_grey{
-    color: #65727f;
+    color: white;
 }
+
+.ms_background_blue{
+    background-color: rgb(3, 3, 114);
+}
+
+.ms_main_title{
+    font-size: 30px;
+}
+
+.ms_font_5{
+    font-size: 40px;
+}
+
+.ms_font_blue{
+    color: #0d6efd;
+}
+
+
 /* regole header */
 
 header > nav {
@@ -39,7 +58,7 @@ header > nav {
 
 .ms_boolean{
     width: 100%;
-    height: 85px;
+    height: 150px;
     background-color: #1b72e8;
 }
 
@@ -53,7 +72,6 @@ header > nav {
     position: absolute;
     bottom: 10px;
     left: 0;
-    background-color: orange;
 }
 
 .ms_overflow{
@@ -64,14 +82,83 @@ header > nav {
     background-color: #e9ecef;;
 }
 
+.ms_label_grey{
+    padding: 5px 10px;
+    background-color: rgba(184, 184, 184, .5);
+    color: white;
+    border-radius: 40px;
+    font-size: .8rem;
+}
 
-@media all and (min-width: 991px ) {
+.ms_intestazione_tabella{
+    background-color: #f7f7f7;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: solid 1px grey;
+    font-size: 1.2rem;
+}
+
+.ms_border_icon_blue{
+    border: 1px solid #0d6efd;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.ms_border_table{
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+
+.ms_border_cod{
+    background-color: #f26551;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+.ms_label_general{
+    padding: 5px 10px ;
+    border-radius: 40px;
+    color: white;
+}
+
+.bg_color_red{
+    background-color: red;
+}
+
+.bg_color_green{
+    background-color: green;
+}
+
+.bg_color_yellow{
+    background-color: yellow;
+}
+
+.ms_border_icon_grey{
+    border: 1px solid #6c757d;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.ms_font_grey_icon{
+    color: #6c757d;
+}
+
+
+
+
+
+@media all and (min-width: 767px ) {
     .ms_sidebar_width{
         width: 105px;
     }
 
     .ms_calc_dash{
         width: calc(100vw - 105px);
+    }
+
+    .ms_boolean{
+        width: 100%;
+        height: 90px;
     }
 
     
