@@ -10,9 +10,27 @@ body{
     color: white;
 }
 
+.ms_font_light_grey{
+    color: lightgrey;
+}
+
 .ms_background_blue{
     background-color: rgb(3, 3, 114);
 }
+
+.ms_background_green{
+   background-color: #198754;
+}
+
+.ms_background_yellow{
+    background-color: #ffc107;
+ }
+
+ .ms_background_red{
+    background-color: #dc3545;
+ }
+
+
 
 .ms_main_title{
     font-size: 30px;
@@ -24,6 +42,10 @@ body{
 
 .ms_font_blue{
     color: #0d6efd;
+}
+
+.ms_font_grey{
+    color: #6c757d;
 }
 
 hr{
@@ -119,12 +141,44 @@ main{
     border-bottom: 1px solid grey;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    padding-bottom: 20px;
 }
 
 .ms_border_bottom{
     border-bottom: 1px solid grey;
 }
 
+.ms_border_interno_table{
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 5px 5px;
+}
+
+.ms_round_orange{
+    background-color: #f26551;
+    border-radius: 50%;
+    padding: 5px;
+    height: 35px;
+    width: 35px;
+    object-fit: contain;
+}
+
+.fa-code{
+    font-size: 20px;
+    color: white;
+}
+
+.ms_border_grey{
+    border-radius: 5px;
+    border: solid 1px #6c757d;
+    padding: 10px;
+}
+
+.ms_label{
+    padding: 3px 10px;
+    color: white;
+    border-radius: 8px;
+}
 
 
 
