@@ -14,7 +14,7 @@
     <!-- nav-bar fissa -->
     <header>
 
-        <nav class="d-flex align-items-center">
+        <nav class="d-flex align-items-center ms_nav_height">
             <div class="container-fluid ">
                 <div class="row align-items-center ">
                     <div class="col-auto">
@@ -54,33 +54,41 @@
         
         <div class="d-flex ms_sidebar_height"> 
             <div class="ms_sidebar_width ms_sidebar_height position-relative pt-1 ms_background_blue">
-                <div class="nav-sx-top ms_font_light_grey text-center md-text-left">
-                    <div class="">
-                        <a class="ms_font_light_grey" href="#"><i class="fa-solid fa-house"></i></a>
-                        <span class="d-none d-md-inline">House</span>
+                <div class="nav-sx-top ms_font_light_grey pl-2 text-center md-text-left">
+                    <div class="pb-2 ms_tasti_nav">
+                        <a href="#" class="ms_font_light_grey">
+                            <i class="fa-solid fa-house"></i>
+                            <span class="d-none d-md-inline">House</span>
+                        </a>               
                     </div>
                     
-                    <div>
-                        <a class="ms_font_light_grey" href="#"><i class="fa-solid fa-chart-simple"></i></a>
-                        <span class="d-none d-md-inline">Stats</span>
+                    <div class="pb-2 ms_tasti_nav">
+                        <a href="#" class="ms_font_light_grey">
+                            <i class="fa-solid fa-chart-simple"></i>
+                            <span class="d-none d-md-inline">Stats</span>
+                        </a>
                     </div>
                    
-                    <div>
-                        <a class="ms_font_light_grey" href="#"><i class="fa-solid fa-signal"></i></a>
-                        <span class="d-none d-md-inline">Signal</span>
+                    <div class="ms_tasti_nav">
+                        <a href="#" class="ms_font_light_grey">
+                            <i class="fa-solid fa-signal"></i>
+                            <span class="d-none d-md-inline">Signal</span>
+                        </a>
                     </div>
                     
                 </div>
                 <div class="nav-sx-bottom text-center ms_font_light_grey">
-                    <div>
-                        <a class="ms_font_light_grey" href="#"><i class="fa-solid fa-gear"></i></a>
-                        <span class="d-none d-md-inline">Admin</span>
+                    <div class="ms_tasti_nav">
+                        <a href="#" class="ms_font_light_grey">
+                            <i class="fa-solid fa-gear"></i>
+                            <span class="d-none d-md-inline">Admin</span>
+                        </a>
                     </div>
                 </div>
             </div>
                 
             <div class="dash">
-                <div class="ms_boolean container-fluid ">
+                <div class="ms_boolean container-fluid align-self-center">
                     <div class="row">
                         <div class="col-12 col-md-8">
                             <span class="ms_font_light_grey ms_main_title">Boolean</span>
@@ -92,7 +100,7 @@
                             <span class="d-none d-md-inline ms_label_grey">Boolean web app</span>
                             <span class="d-none d-md-inline ms_label_grey">Boolean blog app</span>
                         </div>
-                        <div class="col-12 col-md-4">
+                        <div class="col-12 col-md-4 align-self-center">
                             <div class="ms_font_light_grey">Studenti online negli ultimi 30 minuti <br> <span class="ms_font_5">125</span> </div>
 
                         </div>
@@ -111,8 +119,8 @@
                                                 <strong>PROSSIME CLASSI</strong> 
                                             </div>
                                             <a href="#">
-                                                <div class="ms_border_icon_blue">
-                                                    <i class="fa-solid fa-plus ms_font_blue"></i>
+                                                <div class="ms_border_icon_blue ms_font_blue ms_plus">
+                                                    <i class="fa-solid fa-plus "></i>
                                                 </div>
                                             </a>
                                         </div>
@@ -145,7 +153,7 @@
                                         </div>
 
                                         <div class="mx-3 ms_border_bottom ">
-                                            <div class="row py-3">
+                                            <div class="row py-2 ms_action_row">
                                                 <div class="col-4">
                                                     <Span class="">
                                                         <i class="fa-solid fa-code ms_round_orange text-center"></i>
@@ -163,7 +171,7 @@
     
                                                 </div>
                                                 <div class="col-2 text-center">
-                                                    <Span class="">
+                                                    <Span class="ms_tasti_modifica">
                                                         <a href="#"><i class="fa-solid fa-pen ms_font_grey ms_border_grey "></i></a>
                                                         <a href="#"><i class="fa-solid fa-trash ms_font_grey ms_border_grey"></i></a>
                                                     </Span>
@@ -173,7 +181,7 @@
                                         </div>
 
                                         <div class="mx-3 ms_border_bottom ">
-                                            <div class="row py-3">
+                                            <div class="row py-2 ms_action_row">
                                                 <div class="col-4">
                                                     <Span class="">
                                                         <i class="fa-solid fa-code ms_round_orange text-center"></i>
@@ -191,7 +199,7 @@
     
                                                 </div>
                                                 <div class="col-2 text-center">
-                                                    <Span class="">
+                                                    <Span class="ms_tasti_modifica">
                                                         <a href="#"><i class="fa-solid fa-pen ms_font_grey ms_border_grey "></i></a>
                                                         <a href="#"><i class="fa-solid fa-trash ms_font_grey ms_border_grey"></i></a>
                                                     </Span>
@@ -201,7 +209,7 @@
                                         </div>
 
                                         <div class="mx-3 ms_border_bottom ">
-                                            <div class="row py-3">
+                                            <div class="row py-2 ms_action_row">
                                                 <div class="col-4">
                                                     <Span class="">
                                                         <i class="fa-solid fa-code ms_round_orange text-center"></i>
@@ -219,7 +227,7 @@
     
                                                 </div>
                                                 <div class="col-2 text-center">
-                                                    <Span class="">
+                                                    <Span class="ms_tasti_modifica">
                                                         <a href="#"><i class="fa-solid fa-pen ms_font_grey ms_border_grey "></i></a>
                                                         <a href="#"><i class="fa-solid fa-trash ms_font_grey ms_border_grey"></i></a>
                                                     </Span>
@@ -229,7 +237,7 @@
                                         </div>
 
                                         <div class="mx-3 ms_border_bottom ">
-                                            <div class="row py-3">
+                                            <div class="row py-2 ms_action_row">
                                                 <div class="col-4">
                                                     <Span class="">
                                                         <i class="fa-solid fa-code ms_round_orange text-center"></i>
@@ -247,7 +255,7 @@
     
                                                 </div>
                                                 <div class="col-2 text-center">
-                                                    <Span class="">
+                                                    <Span class="ms_tasti_modifica">
                                                         <a href="#"><i class="fa-solid fa-pen ms_font_grey ms_border_grey "></i></a>
                                                         <a href="#"><i class="fa-solid fa-trash ms_font_grey ms_border_grey"></i></a>
                                                     </Span>
@@ -257,7 +265,7 @@
                                         </div>
 
                                         <div class="mx-3 ms_border_bottom ">
-                                            <div class="row py-3">
+                                            <div class="row py-2 ms_action_row">
                                                 <div class="col-4">
                                                     <Span class="">
                                                         <i class="fa-solid fa-code ms_round_orange text-center"></i>
@@ -275,7 +283,7 @@
     
                                                 </div>
                                                 <div class="col-2 text-center">
-                                                    <Span class="">
+                                                    <Span class="ms_tasti_modifica">
                                                         <a href="#"><i class="fa-solid fa-pen ms_font_grey ms_border_grey "></i></a>
                                                         <a href="#"><i class="fa-solid fa-trash ms_font_grey ms_border_grey"></i></a>
                                                     </Span>
@@ -285,7 +293,7 @@
                                         </div>
 
                                         <div class="mx-3 ms_border_bottom ">
-                                            <div class="row py-3">
+                                            <div class="row py-2 ms_action_row">
                                                 <div class="col-4">
                                                     <Span class="">
                                                         <i class="fa-solid fa-code ms_round_orange text-center"></i>
@@ -303,7 +311,7 @@
     
                                                 </div>
                                                 <div class="col-2 text-center">
-                                                    <Span class="">
+                                                    <Span class="ms_tasti_modifica">
                                                         <a href="#"><i class="fa-solid fa-pen ms_font_grey ms_border_grey "></i></a>
                                                         <a href="#"><i class="fa-solid fa-trash ms_font_grey ms_border_grey"></i></a>
                                                     </Span>
@@ -313,7 +321,7 @@
                                         </div>
 
                                         <div class="mx-3 ms_border_bottom ">
-                                            <div class="row py-3">
+                                            <div class="row py-2 ms_action_row">
                                                 <div class="col-4">
                                                     <Span class="">
                                                         <i class="fa-solid fa-code ms_round_orange text-center"></i>
@@ -331,7 +339,7 @@
     
                                                 </div>
                                                 <div class="col-2 text-center">
-                                                    <Span class="">
+                                                    <Span class="ms_tasti_modifica">
                                                         <a href="#"><i class="fa-solid fa-pen ms_font_grey ms_border_grey "></i></a>
                                                         <a href="#"><i class="fa-solid fa-trash ms_font_grey ms_border_grey"></i></a>
                                                     </Span>
@@ -340,7 +348,7 @@
                                         </div>
 
                                         <div class="mx-3 ms_border_bottom ">
-                                            <div class="row py-3">
+                                            <div class="row py-2 ms_action_row">
                                                 <div class="col-4">
                                                     <Span class="">
                                                         <i class="fa-solid fa-code ms_round_orange text-center"></i>
@@ -358,7 +366,7 @@
     
                                                 </div>
                                                 <div class="col-2 text-center">
-                                                    <Span class="">
+                                                    <Span class="ms_tasti_modifica">
                                                         <a href="#"><i class="fa-solid fa-pen ms_font_grey ms_border_grey "></i></a>
                                                         <a href="#"><i class="fa-solid fa-trash ms_font_grey ms_border_grey"></i></a>
                                                     </Span>
@@ -368,7 +376,7 @@
                                         </div>
 
                                         <div class="mx-3 ms_border_bottom">
-                                            <div class="row py-3">
+                                            <div class="row py-2 ms_action_row">
                                                 <div class="col-4">
                                                     <Span class="">
                                                         <i class="fa-solid fa-code ms_round_orange text-center"></i>
@@ -386,7 +394,7 @@
     
                                                 </div>
                                                 <div class="col-2 text-center">
-                                                    <Span class="">
+                                                    <Span class="ms_tasti_modifica">
                                                         <a href="#"><i class="fa-solid fa-pen ms_font_grey ms_border_grey "></i></a>
                                                         <a href="#"><i class="fa-solid fa-trash ms_font_grey ms_border_grey"></i></a>
                                                     </Span>
@@ -418,7 +426,7 @@
 
                                         <!-- prima domanda -->
                                         <div class="mx-3 ms_border_bottom ">
-                                            <div class="row py-3">
+                                            <div class="row py-2">
                                                 <div class="col-10">
                                                     <Span>
                                                         Come aggiungere una classe?
@@ -433,7 +441,7 @@
 
                                         <!-- seconda domanda -->
                                         <div class="mx-3 ms_border_bottom ">
-                                            <div class="row py-3">
+                                            <div class="row py-2">
                                                 <div class="col-10">
                                                     <Span>
                                                         Come posso accedere alle informazioni del mio account?
@@ -448,7 +456,7 @@
 
                                         <!-- terza domanda -->
                                         <div class="mx-3 ms_border_bottom ">
-                                            <div class="row py-3">
+                                            <div class="row py-2">
                                                 <div class="col-10">
                                                     <Span>
                                                         Posso usare questa dashboard da mobile?
@@ -470,7 +478,7 @@
                         </div>
 
                         <div class="col-12 col-md-4">
-                            <div class="row">
+                            <div class="row pb-3">
                                 <div class="col-12">
                                     <div class="ms_intestazione_tabella">
                                         <div class="d-flex justify-content-between align-items-center py-2 mx-2">
@@ -483,7 +491,7 @@
     
                                 <div class="col-12">
     
-                                    <div class="ms_border_table">
+                                    <div class="ms_border_table pt-3">
 
                                         <div class="ms_border_interno_table">
                                             <div class="ms_border_bottom">
@@ -531,6 +539,92 @@
                                 </div>
                                         
                             </div>
+
+                            <div class="row">
+    
+                                <div class="col-12">
+    
+                                    <div class="ms_border_table ms_border_top pt-3">
+
+                                        <div class="ms_border_interno_table">
+                                            <!-- <div class="ms_border_bottom">
+                                                <div class="mx-3">
+                                                    <div class="row py-3">
+                                                        <div class="col-12">
+                                                            <img id="ms_img_stats" src="img/stats.jpeg" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> -->
+
+                                            <div class="ms_border_bottom">
+                                                <div class="mx-3">
+                                                    <div class="row py-3">
+                                                        <div class="col-12">
+                                                            <Span class="ms_font_midium">
+                                                                Utenti attivi
+                                                            </Span> <br>
+                                                            <span>
+                                                                lista degli utenti atttivi in piattafora negli ultimi mesi
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="ms_border_bottom">
+                                                <div class="mx-3">
+                                                    <div class="row py-3">
+                                                        <div class="col-12">
+                                                            <Span>
+                                                                Gennaio: 1200
+                                                            </Span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="ms_border_bottom">
+                                                <div class="mx-3">
+                                                    <div class="row py-3">
+                                                        <div class="col-12">
+                                                            <Span>
+                                                                Febbraio: 1300
+                                                            </Span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="ms_border_bottom">
+                                                <div class="mx-3">
+                                                    <div class="row py-3">
+                                                        <div class="col-12">
+                                                            <Span>
+                                                                Marzo: 1400
+                                                            </Span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="">
+                                                <div class="mx-3">
+                                                    <div class="row py-3">
+                                                        <div class="col-12">
+                                                            <a class="ms_decoration_a" href="#">visualizza report approfondito</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                        
+                            </div>
                         </div>
                     </div>
                 </div>          
@@ -541,5 +635,6 @@
     
     </main>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js">
 </body>
 </html>

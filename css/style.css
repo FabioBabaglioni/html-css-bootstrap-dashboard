@@ -1,7 +1,4 @@
-/* [class*="col"]{
-    border: solid 1px black;   
-    min-height: 50px; 
-} */
+
 
 body{
     font-size: 15px;
@@ -52,6 +49,10 @@ hr{
     margin: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* regole header */
 
 header{
@@ -69,6 +70,10 @@ header{
 
 .fa-bell{
     color: #ff8f00;
+}
+
+.ms_nav_height{
+    height: 100%;
 }
 
 /* regole main */
@@ -154,6 +159,12 @@ main{
     margin: 5px 5px;
 }
 
+.ms_border_top{
+    border-top: solid 1px grey;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
 .ms_round_orange{
     background-color: #f26551;
     border-radius: 50%;
@@ -180,6 +191,41 @@ main{
     border-radius: 8px;
 }
 
+#ms_img_stats{
+    width: 90%;
+}
+
+.ms_font_midium{
+    font-size: 1.3rem;
+}
+
+.ms_decoration_a{
+    text-decoration: underline;
+    color: #0d6efd;
+}
+
+.ms_tasti_nav:hover a{
+    background-color: lightslategray;
+    padding: 5px;
+    color: white;
+}
+
+.ms_plus:hover{
+    background-color: #0d6efd;
+    color: white;
+}
+
+
+
+
+.ms_tasti_modifica > a :hover{
+    color: white;
+    background-color: grey;
+}
+
+.ms_action_row:hover{
+    background-color: lightgray;
+}
 
 
 
